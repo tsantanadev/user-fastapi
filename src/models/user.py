@@ -1,18 +1,9 @@
-from enum import Enum
 from typing import List, Optional
 from uuid import UUID, uuid4
 from pydantic import BaseModel
 
-
-class Gender(str, Enum):
-    male = "male"
-    female = "female"
-
-
-class Role(str, Enum):
-    admin = "admin"
-    user = "user"
-    student = "student"
+from src.models.gender import Gender
+from src.models.role import Role
 
 
 class User(BaseModel):
