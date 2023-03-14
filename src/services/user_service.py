@@ -21,7 +21,7 @@ class UserService:
             ),
             User(
                 id="6c95fac5-390c-4b26-a637-7cff70dc9055",
-                first_name="Thiaggo",
+                first_name="Thiago",
                 last_name="Santana",
                 gender=Gender.male,
                 roles=[Role.student]
